@@ -599,3 +599,27 @@ SLF4J(I): Actual provider is of type [scribe.slf4j.ScribeServiceProvider@248be50
 2024.06.17 19:16:45 INFO  Shut down connection with build server.
 2024.06.17 19:16:45 INFO  BSP server: Jun 17, 2024 7:16:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
 2024.06.17 19:16:45 INFO  Exiting server
+2024.06.24 11:20:10 INFO  Started: Metals version 1.3.2 in folders 'C:\Users\tharu\Desktop\scala\scala' for client Visual Studio Code 1.90.2.
+SLF4J(W): Class path contains multiple SLF4J providers.
+SLF4J(W): Found provider [scribe.slf4j.ScribeServiceProvider@483d05d7]
+SLF4J(W): Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@4c1fa67f]
+SLF4J(W): See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J(I): Actual provider is of type [scribe.slf4j.ScribeServiceProvider@483d05d7]
+2024.06.24 11:20:11 WARN  Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.06.24 11:20:12 INFO  Attempting to connect to the build server...
+2024.06.24 11:20:12 INFO  Running BSP server List(C:\Users\tharu\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\tharu\Desktop\scala\scala\.scala-build\ide-options-v2.json, --json-launcher-options, C:\Users\tharu\Desktop\scala\scala\.scala-build\ide-launcher-options.json, --envs-file, C:\Users\tharu\Desktop\scala\scala\.scala-build\ide-envs.json, C:\Users\tharu\Desktop\scala\scala)
+2024.06.24 11:20:13 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\tharu\Desktop\scala\scala\.metals\bsp.trace.json or C:\Users\tharu\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.06.24 11:20:17 INFO  BSP server: Starting compilation server
+2024.06.24 11:20:28 INFO  time: Connected to build server in 16s
+2024.06.24 11:20:28 INFO  Connected to Build server: scala-cli v1.3.2
+2024.06.24 11:20:29 INFO  time: Imported build in 0.29s
+2024.06.24 11:20:30 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.06.24 11:20:38 INFO  time: compiled scala_f4dd477a3a in 8.01s
+2024.06.24 11:20:41 INFO  time: indexed workspace in 12s
+2024.06.24 11:21:04 INFO  Shutting down server
+2024.06.24 11:21:04 INFO  shutting down Metals
+2024.06.24 11:21:04 INFO  Shut down connection with build server.
+2024.06.24 11:21:04 INFO  BSP server: Jun 24, 2024 11:21:04 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+2024.06.24 11:21:04 INFO  BSP server: WARNING: Notification threw an exception: {
+2024.06.24 11:21:04 INFO  BSP server:   "jsonrpc": "2.0",
+2024.06.24 11:21:04 INFO  Exiting server
