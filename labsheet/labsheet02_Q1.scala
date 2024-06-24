@@ -1,5 +1,6 @@
 object variables{
     def main(args: Array[String]): Unit = {
+        //Declareand assign
         var i,j,k = 2
         var m,n =5
         var f = 12.0f

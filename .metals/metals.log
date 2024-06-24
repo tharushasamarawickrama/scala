@@ -637,3 +637,8 @@ SLF4J(I): Actual provider is of type [scribe.slf4j.ScribeServiceProvider@6c9b78e
 2024.06.24 11:23:22 INFO  Connected to Build server: scala-cli v1.3.2
 2024.06.24 11:23:22 INFO  time: Imported build in 0.1s
 2024.06.24 11:23:28 INFO  time: indexed workspace in 5.88s
+2024.06.24 11:24:10 INFO  Shutting down server
+2024.06.24 11:24:10 INFO  shutting down Metals
+2024.06.24 11:24:10 INFO  Shut down connection with build server.
+2024.06.24 11:24:10 INFO  BSP server: Jun 24, 2024 11:24:10 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+2024.06.24 11:24:10 INFO  Exiting server
