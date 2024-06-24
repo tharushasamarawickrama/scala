@@ -642,3 +642,131 @@ SLF4J(I): Actual provider is of type [scribe.slf4j.ScribeServiceProvider@6c9b78e
 2024.06.24 11:24:10 INFO  Shut down connection with build server.
 2024.06.24 11:24:10 INFO  BSP server: Jun 24, 2024 11:24:10 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
 2024.06.24 11:24:10 INFO  Exiting server
+2024.06.24 19:21:28 INFO  Started: Metals version 1.3.2 in folders 'C:\Users\tharu\Desktop\scala\scala' for client Visual Studio Code 1.90.2.
+SLF4J(W): Class path contains multiple SLF4J providers.
+SLF4J(W): Found provider [scribe.slf4j.ScribeServiceProvider@6d787775]
+SLF4J(W): Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@184c4900]
+SLF4J(W): See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J(I): Actual provider is of type [scribe.slf4j.ScribeServiceProvider@6d787775]
+2024.06.24 19:21:28 WARN  Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.06.24 19:21:30 INFO  no build target found for C:\Users\tharu\Desktop\scala\scala\labsheet\labsheet02_Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.24 19:21:31 INFO  Attempting to connect to the build server...
+2024.06.24 19:21:31 INFO  Running BSP server List(C:\Users\tharu\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\tharu\Desktop\scala\scala\.scala-build\ide-options-v2.json, --json-launcher-options, C:\Users\tharu\Desktop\scala\scala\.scala-build\ide-launcher-options.json, --envs-file, C:\Users\tharu\Desktop\scala\scala\.scala-build\ide-envs.json, C:\Users\tharu\Desktop\scala\scala)
+2024.06.24 19:21:36 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\tharu\Desktop\scala\scala\.metals\bsp.trace.json or C:\Users\tharu\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.06.24 19:21:38 INFO  BSP server: Starting compilation server
+2024.06.24 19:21:49 INFO  time: Connected to build server in 18s
+2024.06.24 19:21:49 INFO  Connected to Build server: scala-cli v1.3.2
+2024.06.24 19:21:49 INFO  time: Imported build in 0.14s
+2024.06.24 19:22:07 INFO  time: indexed workspace in 2.35s
+Jun 24, 2024 7:24:28 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2024.06.24 19:25:36 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.06.24 19:25:40 INFO  time: compiled scala_f4dd477a3a in 3.67s
+2024.06.24 19:31:59 INFO  no build target found for C:\Users\tharu\Desktop\scala\scala\labsheet\labsheet02_Q2.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.24 19:31:59 INFO  no build target found for C:\Users\tharu\Desktop\scala\scala\labsheet\labsheet02_Q2.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.06.24 19:31:59 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.06.24 19:31:59 INFO  time: compiled scala_f4dd477a3a in 0.11s
+2024.06.24 19:32:00 WARN  Could not find semantic tokens for: file:///C:/Users/tharu/Desktop/scala/scala/labsheet/labsheet02_Q2.scala
+2024.06.24 19:32:01 INFO  time: indexed workspace in 1.97s
+2024.06.24 19:32:01 WARN  Could not find semantic tokens for: file:///C:/Users/tharu/Desktop/scala/scala/labsheet/labsheet02_Q2.scala
+2024.06.24 19:32:05 WARN  Could not find semantic tokens for: file:///C:/Users/tharu/Desktop/scala/scala/labsheet/labsheet02_Q2.scala
+2024.06.24 19:32:07 WARN  Could not find semantic tokens for: file:///C:/Users/tharu/Desktop/scala/scala/labsheet/labsheet02_Q2.scala
+2024.06.24 19:32:26 WARN  Could not find semantic tokens for: file:///C:/Users/tharu/Desktop/scala/scala/labsheet/labsheet02_Q2.scala
+2024.06.24 19:32:43 WARN  Could not find semantic tokens for: file:///C:/Users/tharu/Desktop/scala/scala/labsheet/labsheet02_Q2.scala
+2024.06.24 19:36:16 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.06.24 19:36:16 INFO  time: compiled scala_f4dd477a3a in 0.31s
+Jun 24, 2024 7:38:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 513
+2024.06.24 19:41:21 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.06.24 19:41:21 INFO  time: compiled scala_f4dd477a3a in 0.3s
+2024.06.24 19:44:42 ERROR Failed to tokenize input for semantic tokens for C:\Users\tharu\Desktop\scala\scala\labsheet\labsheet02_Q2.scala
+scala.meta.tokenizers.TokenizeException: <input>:30: error: illegal character '\u00a0'
+        a += 1
+         ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:32)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:32)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchOther$1(LegacyScanner.scala:439)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:443)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:201)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:912)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:322)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:22)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:13)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:545)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2024.06.24 19:44:49 ERROR Failed to tokenize input for semantic tokens for C:\Users\tharu\Desktop\scala\scala\labsheet\labsheet02_Q2.scala
+scala.meta.tokenizers.TokenizeException: <input>:30: error: illegal character '\u00a0'
+        a+= 1
+           ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:32)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:32)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchOther$1(LegacyScanner.scala:439)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:443)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:201)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:912)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:322)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:22)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:13)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:545)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2024.06.24 19:44:49 ERROR Failed to tokenize input for semantic tokens for C:\Users\tharu\Desktop\scala\scala\labsheet\labsheet02_Q2.scala
+scala.meta.tokenizers.TokenizeException: <input>:30: error: illegal character '\u00a0'
+        += 1
+          ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:32)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:32)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchOther$1(LegacyScanner.scala:439)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:443)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:201)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:912)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:23)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:960)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:322)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:22)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:13)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:545)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2024.06.24 19:45:03 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.06.24 19:45:03 INFO  time: compiled scala_f4dd477a3a in 0.37s
+Jun 24, 2024 7:45:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1202
