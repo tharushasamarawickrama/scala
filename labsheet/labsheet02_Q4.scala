@@ -8,7 +8,7 @@ object question04{
     }
 }
 def noOfAttendees(ticket_price: Double): Double={
-        120 + (15 - ticket_price) * 4 // /5 *20
+        120 + (15 - ticket_price) * 4 // 20/5
     }
 def cost(ticket_price: Double):Double={
     var noOfshow= (noOfAttendees(ticket_price)/120)
