@@ -1139,3 +1139,67 @@ WARNING: Unmatched cancel notification for request id 680
 2024.06.25 14:24:54 INFO  BSP server:   "jsonrpc": "2.0",
 2024.06.25 14:24:54 INFO  BSP server:   "method": "build/exit",
 2024.06.25 14:24:54 INFO  Exiting server
+2024.07.01 10:50:56 INFO  Started: Metals version 1.3.2 in folders 'C:\Users\tharu\Desktop\scala\scala' for client Visual Studio Code 1.90.2.
+SLF4J(W): Class path contains multiple SLF4J providers.
+SLF4J(W): Found provider [scribe.slf4j.ScribeServiceProvider@29ddfe7f]
+SLF4J(W): Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@4ef08df2]
+SLF4J(W): See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J(I): Actual provider is of type [scribe.slf4j.ScribeServiceProvider@29ddfe7f]
+2024.07.01 10:50:57 WARN  Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.07.01 10:50:58 INFO  Attempting to connect to the build server...
+2024.07.01 10:50:58 INFO  Running BSP server List(C:\Users\tharu\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\tharu\Desktop\scala\scala\.scala-build\ide-options-v2.json, --json-launcher-options, C:\Users\tharu\Desktop\scala\scala\.scala-build\ide-launcher-options.json, --envs-file, C:\Users\tharu\Desktop\scala\scala\.scala-build\ide-envs.json, C:\Users\tharu\Desktop\scala\scala)
+2024.07.01 10:50:58 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\tharu\Desktop\scala\scala\.metals\bsp.trace.json or C:\Users\tharu\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.07.01 10:51:02 INFO  BSP server: Starting compilation server
+2024.07.01 10:51:12 INFO  time: Connected to build server in 13s
+2024.07.01 10:51:12 INFO  Connected to Build server: scala-cli v1.3.2
+2024.07.01 10:51:12 INFO  time: Imported build in 0.22s
+2024.07.01 10:51:13 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.07.01 10:51:17 INFO  time: compiled scala_f4dd477a3a in 3.28s
+2024.07.01 10:51:17 INFO  compiling scala_f4dd477a3a (1 scala source)
+2024.07.01 10:51:17 INFO  time: compiled scala_f4dd477a3a in 0.21s
+2024.07.01 10:51:24 INFO  time: indexed workspace in 11s
+2024.07.01 10:51:24 INFO  no build target found for C:\Users\tharu\Desktop\scala\scala\labsheet03\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.01 10:51:24 WARN  no build target for: C:\Users\tharu\Desktop\scala\scala\labsheet03\Q1.scala
+2024.07.01 10:51:24 INFO  compiling scala_f4dd477a3a (2 scala sources)
+2024.07.01 10:51:26 INFO  time: compiled scala_f4dd477a3a in 1.76s
+2024.07.01 10:51:26 INFO  compiling scala_f4dd477a3a (2 scala sources)
+2024.07.01 10:51:26 INFO  time: compiled scala_f4dd477a3a in 11ms
+2024.07.01 10:51:26 INFO  compiling scala_f4dd477a3a (2 scala sources)
+2024.07.01 10:51:26 INFO  time: compiled scala_f4dd477a3a in 0.16s
+2024.07.01 10:51:27 INFO  time: indexed workspace in 2.25s
+2024.07.01 10:51:28 INFO  compiling scala_f4dd477a3a (2 scala sources)
+2024.07.01 10:51:28 INFO  time: compiled scala_f4dd477a3a in 0.15s
+2024.07.01 10:51:31 WARN  Could not find semantic tokens for: file:///C:/Users/tharu/Desktop/scala/scala/labsheet03/Q1.scala
+2024.07.01 10:51:33 WARN  Could not find semantic tokens for: file:///C:/Users/tharu/Desktop/scala/scala/labsheet03/Q1.scala
+2024.07.01 10:51:35 INFO  no build target found for C:\Users\tharu\Desktop\scala\scala\labsheet03\Q2.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.01 10:51:36 INFO  compiling scala_f4dd477a3a (3 scala sources)
+2024.07.01 10:51:36 INFO  time: compiled scala_f4dd477a3a in 0.14s
+2024.07.01 10:51:36 INFO  compiling scala_f4dd477a3a (3 scala sources)
+2024.07.01 10:51:36 INFO  time: compiled scala_f4dd477a3a in 0.13s
+2024.07.01 10:51:37 INFO  no build target found for C:\Users\tharu\Desktop\scala\scala\labsheet03\Q2.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.01 10:51:37 WARN  Could not find semantic tokens for: file:///C:/Users/tharu/Desktop/scala/scala/labsheet03/Q2.scala
+2024.07.01 10:51:37 INFO  time: code lens generation in 1.54s
+2024.07.01 10:51:39 INFO  time: indexed workspace in 3.83s
+2024.07.01 10:51:40 INFO  compiling scala_f4dd477a3a (3 scala sources)
+2024.07.01 10:51:40 INFO  time: compiled scala_f4dd477a3a in 85ms
+2024.07.01 10:51:40 WARN  Could not find semantic tokens for: file:///C:/Users/tharu/Desktop/scala/scala/labsheet03/Q1.scala
+2024.07.01 10:51:48 INFO  no build target found for C:\Users\tharu\Desktop\scala\scala\labsheet03\Q3.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.01 10:51:48 INFO  compiling scala_f4dd477a3a (4 scala sources)
+2024.07.01 10:51:48 INFO  time: compiled scala_f4dd477a3a in 0.12s
+2024.07.01 10:51:48 INFO  compiling scala_f4dd477a3a (4 scala sources)
+2024.07.01 10:51:48 INFO  time: compiled scala_f4dd477a3a in 84ms
+2024.07.01 10:51:49 WARN  Could not find semantic tokens for: file:///C:/Users/tharu/Desktop/scala/scala/labsheet03/Q3.scala
+2024.07.01 10:51:50 INFO  time: indexed workspace in 2.05s
+2024.07.01 10:51:51 INFO  compiling scala_f4dd477a3a (4 scala sources)
+2024.07.01 10:51:51 INFO  time: compiled scala_f4dd477a3a in 81ms
+2024.07.01 10:51:50 WARN  Could not find semantic tokens for: file:///C:/Users/tharu/Desktop/scala/scala/labsheet03/Q3.scala
+2024.07.01 10:52:00 INFO  no build target found for C:\Users\tharu\Desktop\scala\scala\labsheet03\Q4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.01 10:52:01 INFO  compiling scala_f4dd477a3a (5 scala sources)
+2024.07.01 10:52:01 INFO  time: compiled scala_f4dd477a3a in 86ms
+2024.07.01 10:52:01 WARN  Could not find semantic tokens for: file:///C:/Users/tharu/Desktop/scala/scala/labsheet03/Q4.scala
+2024.07.01 10:52:01 INFO  compiling scala_f4dd477a3a (5 scala sources)
+2024.07.01 10:52:01 INFO  time: compiled scala_f4dd477a3a in 73ms
+2024.07.01 10:52:03 INFO  time: indexed workspace in 2.14s
+2024.07.01 10:52:03 INFO  compiling scala_f4dd477a3a (5 scala sources)
+2024.07.01 10:52:03 INFO  time: compiled scala_f4dd477a3a in 0.11s
+2024.07.01 10:52:03 WARN  Could not find semantic tokens for: file:///C:/Users/tharu/Desktop/scala/scala/labsheet03/Q4.scala
