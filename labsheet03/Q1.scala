@@ -6,7 +6,7 @@ object StringReverser {
   
   def main(args: Array[String]): Unit = {
     // Example usage:
-  val inputString = "hello" 
+  val inputString = "tharusha thathrasa" 
   println(s"Original string: $inputString")
   println(s"Reversed string: ${reverseString(inputString)}")
   }

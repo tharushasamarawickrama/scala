@@ -5,7 +5,7 @@ object StringFilter  {
   def main(args: Array[String]): Unit = {
     
   // Example usage:
-  val inputStrings = List("hello", "world", "Scala", "programming", "is", "fun")
+  val inputStrings = List("kamal", "amal", "apple", "stringfilter", "helloworld", "fun")
   val filteredStrings = filterLongStrings(inputStrings)
   println(s"Original list: $inputStrings")
   println(s"Filtered list: $filteredStrings")

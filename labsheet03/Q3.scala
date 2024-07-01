@@ -7,8 +7,8 @@ object ArithmeticMean  {
   } 
   def main(args: Array[String]): Unit = {
     // Example usage:
-    val num1 = 5
-    val num2 = 10
+    val num1 = 37
+    val num2 = 19
     println(s"The arithmetic mean of $num1 and $num2 is: ${calculateMean(num1, num2)}")
   }
 
