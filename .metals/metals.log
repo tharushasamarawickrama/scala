@@ -2518,3 +2518,71 @@ WARNING: Unmatched cancel notification for request id 4119
 2024.07.01 22:13:17 INFO  Shut down connection with build server.
 Jul 01, 2024 10:13:21 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
 WARNING: Unmatched cancel notification for request id 4139
+Jul 01, 2024 10:24:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4147
+Jul 01, 2024 10:24:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4156
+Jul 01, 2024 10:25:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4165
+2024.07.01 22:29:10 INFO  compiling scala_f4dd477a3a (5 scala sources)
+2024.07.01 22:29:10 INFO  time: compiled scala_f4dd477a3a in 0.24s
+2024.07.01 22:29:12 INFO  compiling scala_f4dd477a3a (5 scala sources)
+2024.07.01 22:29:12 INFO  time: compiled scala_f4dd477a3a in 0.21s
+2024.07.01 22:29:16 INFO  compiling scala_f4dd477a3a (5 scala sources)
+2024.07.01 22:29:16 INFO  time: compiled scala_f4dd477a3a in 0.22s
+2024.07.01 22:29:20 INFO  compiling scala_f4dd477a3a (5 scala sources)
+2024.07.01 22:29:20 INFO  time: compiled scala_f4dd477a3a in 0.22s
+Jul 01, 2024 10:29:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4268
+2024.07.01 22:29:45 INFO  compiling scala_f4dd477a3a (5 scala sources)
+2024.07.01 22:29:45 INFO  time: compiled scala_f4dd477a3a in 0.2s
+2024.07.01 22:29:48 INFO  compiling scala_f4dd477a3a (5 scala sources)
+2024.07.01 22:29:48 INFO  time: compiled scala_f4dd477a3a in 0.22s
+2024.07.01 22:29:53 INFO  compiling scala_f4dd477a3a (5 scala sources)
+2024.07.01 22:29:53 INFO  time: compiled scala_f4dd477a3a in 0.21s
+2024.07.01 22:29:57 INFO  compiling scala_f4dd477a3a (5 scala sources)
+2024.07.01 22:29:57 INFO  time: compiled scala_f4dd477a3a in 0.19s
+2024.07.01 22:30:04 INFO  compiling scala_f4dd477a3a (5 scala sources)
+2024.07.01 22:30:04 INFO  time: compiled scala_f4dd477a3a in 0.2s
+2024.07.01 22:30:10 INFO  compiling scala_f4dd477a3a (5 scala sources)
+2024.07.01 22:30:10 INFO  time: compiled scala_f4dd477a3a in 0.2s
+Jul 01, 2024 10:30:21 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4446
+2024.07.01 22:30:24 INFO  compiling scala_f4dd477a3a (5 scala sources)
+2024.07.01 22:30:24 INFO  time: compiled scala_f4dd477a3a in 0.2s
+2024.07.01 22:30:28 INFO  compiling scala_f4dd477a3a (5 scala sources)
+2024.07.01 22:30:28 INFO  time: compiled scala_f4dd477a3a in 0.18s
+2024.07.01 22:30:32 INFO  compiling scala_f4dd477a3a (5 scala sources)
+2024.07.01 22:30:32 INFO  time: compiled scala_f4dd477a3a in 0.18s
+Jul 01, 2024 10:30:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4538
+2024.07.01 22:30:59 INFO  compiling scala_f4dd477a3a (5 scala sources)
+2024.07.01 22:30:59 INFO  time: compiled scala_f4dd477a3a in 0.24s
+2024.07.01 22:31:01 INFO  compiling scala_f4dd477a3a (5 scala sources)
+2024.07.01 22:31:01 INFO  time: compiled scala_f4dd477a3a in 0.2s
+2024.07.01 22:31:03 INFO  compiling scala_f4dd477a3a (5 scala sources)
+2024.07.01 22:31:03 INFO  time: compiled scala_f4dd477a3a in 0.21s
+2024.07.01 22:31:05 INFO  compiling scala_f4dd477a3a (5 scala sources)
+2024.07.01 22:31:05 INFO  time: compiled scala_f4dd477a3a in 0.23s
+2024.07.01 22:31:07 INFO  compiling scala_f4dd477a3a (5 scala sources)
+2024.07.01 22:31:07 INFO  time: compiled scala_f4dd477a3a in 0.19s
+2024.07.01 22:31:09 INFO  compiling scala_f4dd477a3a (5 scala sources)
+2024.07.01 22:31:09 INFO  time: compiled scala_f4dd477a3a in 0.21s
+2024.07.01 22:31:12 INFO  compiling scala_f4dd477a3a (5 scala sources)
+2024.07.01 22:31:12 INFO  time: compiled scala_f4dd477a3a in 0.23s
+Jul 01, 2024 10:31:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4621
+2024.07.01 22:31:36 INFO  compiling scala_f4dd477a3a (5 scala sources)
+2024.07.01 22:31:36 INFO  time: compiled scala_f4dd477a3a in 0.2s
+2024.07.01 22:31:43 INFO  compiling scala_f4dd477a3a (5 scala sources)
+2024.07.01 22:31:43 INFO  time: compiled scala_f4dd477a3a in 0.21s
+2024.07.01 22:31:46 INFO  compiling scala_f4dd477a3a (5 scala sources)
+2024.07.01 22:31:46 INFO  time: compiled scala_f4dd477a3a in 0.22s
+2024.07.01 22:31:47 INFO  compiling scala_f4dd477a3a (5 scala sources)
+2024.07.01 22:31:47 INFO  time: compiled scala_f4dd477a3a in 0.18s
+2024.07.01 22:31:52 INFO  compiling scala_f4dd477a3a (5 scala sources)
+2024.07.01 22:31:52 INFO  time: compiled scala_f4dd477a3a in 0.21s
+2024.07.02 00:47:29 INFO  Shutting down server
+2024.07.02 00:47:29 INFO  shutting down Metals
+2024.07.02 00:47:29 INFO  Shut down connection with build server.
+2024.07.02 00:47:29 INFO  Exiting server
