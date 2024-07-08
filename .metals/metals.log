@@ -2586,3 +2586,107 @@ WARNING: Unmatched cancel notification for request id 4621
 2024.07.02 00:47:29 INFO  shutting down Metals
 2024.07.02 00:47:29 INFO  Shut down connection with build server.
 2024.07.02 00:47:29 INFO  Exiting server
+2024.07.02 07:21:30 INFO  Started: Metals version 1.3.2 in folders 'C:\Users\tharu\Desktop\scala\scala' for client Visual Studio Code 1.90.2.
+SLF4J(W): Class path contains multiple SLF4J providers.
+SLF4J(W): Found provider [scribe.slf4j.ScribeServiceProvider@5c46529]
+SLF4J(W): Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@2e4e1d84]
+SLF4J(W): See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J(I): Actual provider is of type [scribe.slf4j.ScribeServiceProvider@5c46529]
+2024.07.02 07:21:31 WARN  Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.07.02 07:21:33 INFO  no build target found for C:\Users\tharu\Desktop\scala\scala\labsheet03\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.02 07:21:35 INFO  Attempting to connect to the build server...
+2024.07.02 07:21:35 INFO  Running BSP server List(C:\Users\tharu\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\tharu\Desktop\scala\scala\.scala-build\ide-options-v2.json, --json-launcher-options, C:\Users\tharu\Desktop\scala\scala\.scala-build\ide-launcher-options.json, --envs-file, C:\Users\tharu\Desktop\scala\scala\.scala-build\ide-envs.json, C:\Users\tharu\Desktop\scala\scala)
+2024.07.02 07:21:36 INFO  no build target found for C:\Users\tharu\Desktop\scala\scala\labsheet03\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.02 07:21:37 INFO  no build target found for C:\Users\tharu\Desktop\scala\scala\labsheet03\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.02 07:21:37 WARN  no build target for: C:\Users\tharu\Desktop\scala\scala\labsheet03\Q1.scala
+2024.07.02 07:21:37 INFO  no build target found for C:\Users\tharu\Desktop\scala\scala\labsheet03\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.02 07:21:37 INFO  no build target found for C:\Users\tharu\Desktop\scala\scala\labsheet03\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.02 07:21:39 WARN  no build target for: C:\Users\tharu\Desktop\scala\scala\labsheet03\Q1.scala
+2024.07.02 07:21:40 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\tharu\Desktop\scala\scala\.metals\bsp.trace.json or C:\Users\tharu\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.07.02 07:21:40 INFO  no build target found for C:\Users\tharu\Desktop\scala\scala\labsheet03\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.02 07:21:41 WARN  no build target for: C:\Users\tharu\Desktop\scala\scala\labsheet03\Q1.scala
+2024.07.02 07:21:43 INFO  no build target found for C:\Users\tharu\Desktop\scala\scala\labsheet03\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.02 07:21:43 INFO  BSP server: Starting compilation server
+2024.07.02 07:21:44 INFO  no build target found for C:\Users\tharu\Desktop\scala\scala\labsheet03\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.02 07:21:53 INFO  time: Connected to build server in 18s
+2024.07.02 07:21:53 INFO  Connected to Build server: scala-cli v1.3.2
+2024.07.02 07:21:53 INFO  time: Imported build in 0.2s
+2024.07.02 07:21:54 INFO  compiling scala_f4dd477a3a (5 scala sources)
+2024.07.02 07:21:57 INFO  time: indexed workspace in 4.34s
+2024.07.02 07:22:00 INFO  time: compiled scala_f4dd477a3a in 5.61s
+2024.07.02 07:22:00 INFO  compiling scala_f4dd477a3a (5 scala sources)
+2024.07.02 07:22:01 INFO  time: compiled scala_f4dd477a3a in 0.84s
+2024.07.02 07:22:01 INFO  compiling scala_f4dd477a3a (5 scala sources)
+2024.07.02 07:22:02 INFO  time: compiled scala_f4dd477a3a in 0.91s
+2024.07.02 07:22:02 INFO  compiling scala_f4dd477a3a (5 scala sources)
+2024.07.02 07:22:03 INFO  time: compiled scala_f4dd477a3a in 0.72s
+2024.07.02 07:22:03 INFO  compiling scala_f4dd477a3a (5 scala sources)
+2024.07.02 07:22:04 INFO  time: compiled scala_f4dd477a3a in 0.52s
+Jul 02, 2024 7:23:22 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2024.07.02 07:24:03 INFO  Shutting down server
+2024.07.02 07:24:03 INFO  shutting down Metals
+2024.07.02 07:24:03 INFO  BSP server: Jul 02, 2024 7:24:03 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+2024.07.02 07:24:03 INFO  BSP server: WARNING: Notification threw an exception: {
+2024.07.02 07:24:03 INFO  BSP server:   "jsonrpc": "2.0",
+2024.07.02 07:24:03 INFO  BSP server:   "method": "build/exit",
+2024.07.02 07:24:03 INFO  BSP server:   "params": null
+2024.07.02 07:24:03 INFO  Shut down connection with build server.
+2024.07.02 07:24:03 INFO  BSP server: }
+2024.07.02 07:24:03 INFO  BSP server: java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+2024.07.02 07:24:03 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+2024.07.02 07:24:03 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+2024.07.02 07:24:03 INFO  Exiting server
+2024.07.02 10:16:32 INFO  Started: Metals version 1.3.2 in folders 'C:\Users\tharu\Desktop\scala\scala' for client Visual Studio Code 1.90.2.
+SLF4J(W): Class path contains multiple SLF4J providers.
+SLF4J(W): Found provider [scribe.slf4j.ScribeServiceProvider@5c46529]
+SLF4J(W): Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@2e4e1d84]
+SLF4J(W): See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J(I): Actual provider is of type [scribe.slf4j.ScribeServiceProvider@5c46529]
+2024.07.02 10:16:33 WARN  Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.07.02 10:16:34 INFO  no build target found for C:\Users\tharu\Desktop\scala\scala\labsheet03\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.02 10:16:36 INFO  Attempting to connect to the build server...
+2024.07.02 10:16:36 INFO  Running BSP server List(C:\Users\tharu\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\tharu\Desktop\scala\scala\.scala-build\ide-options-v2.json, --json-launcher-options, C:\Users\tharu\Desktop\scala\scala\.scala-build\ide-launcher-options.json, --envs-file, C:\Users\tharu\Desktop\scala\scala\.scala-build\ide-envs.json, C:\Users\tharu\Desktop\scala\scala)
+2024.07.02 10:16:36 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\tharu\Desktop\scala\scala\.metals\bsp.trace.json or C:\Users\tharu\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.07.02 10:16:39 INFO  BSP server: Starting compilation server
+2024.07.02 10:16:49 INFO  time: Connected to build server in 13s
+2024.07.02 10:16:49 INFO  Connected to Build server: scala-cli v1.3.2
+2024.07.02 10:16:49 INFO  time: Imported build in 0.23s
+2024.07.02 10:16:50 INFO  compiling scala_f4dd477a3a (5 scala sources)
+2024.07.02 10:16:53 INFO  time: indexed workspace in 4.19s
+2024.07.02 10:16:56 INFO  time: compiled scala_f4dd477a3a in 5.39s
+2024.07.02 10:16:56 INFO  compiling scala_f4dd477a3a (5 scala sources)
+2024.07.02 10:16:56 INFO  time: compiled scala_f4dd477a3a in 0.8s
+2024.07.02 10:16:57 INFO  compiling scala_f4dd477a3a (5 scala sources)
+2024.07.02 10:16:58 INFO  time: compiled scala_f4dd477a3a in 1.02s
+2024.07.02 10:16:58 INFO  compiling scala_f4dd477a3a (5 scala sources)
+2024.07.02 10:17:00 INFO  time: compiled scala_f4dd477a3a in 0.8s
+2024.07.02 10:17:00 INFO  compiling scala_f4dd477a3a (5 scala sources)
+2024.07.02 10:17:01 INFO  time: compiled scala_f4dd477a3a in 0.62s
+Jul 02, 2024 10:17:08 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 24
+Jul 02, 2024 10:17:10 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 33
+Jul 02, 2024 10:29:19 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 67
+2024.07.02 10:30:51 INFO  Shutting down server
+2024.07.02 10:30:51 INFO  shutting down Metals
+2024.07.02 10:30:51 INFO  BSP server: Jul 02, 2024 10:30:51 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+2024.07.02 10:30:51 INFO  BSP server: WARNING: Notification threw an exception: {
+2024.07.02 10:30:51 INFO  BSP server:   "jsonrpc": "2.0",
+2024.07.02 10:30:51 INFO  BSP server:   "method": "build/exit",
+2024.07.02 10:30:51 INFO  BSP server:   "params": null
+2024.07.02 10:30:51 INFO  BSP server: }
+2024.07.02 10:30:51 INFO  BSP server: java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+2024.07.02 10:30:51 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+2024.07.02 10:30:51 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+2024.07.02 10:30:51 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+2024.07.02 10:30:51 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+2024.07.02 10:30:51 INFO  Shut down connection with build server.
+2024.07.02 10:30:51 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+2024.07.02 10:30:51 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+2024.07.02 10:30:51 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+2024.07.02 10:30:51 INFO  BSP server: 	at java.base@17.0.6/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+2024.07.02 10:30:51 INFO  BSP server: 	at java.base@17.0.6/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+2024.07.02 10:30:51 INFO  BSP server: 	at java.base@17.0.6/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+2024.07.02 10:30:51 INFO  Exiting server
