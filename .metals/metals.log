@@ -2690,3 +2690,90 @@ WARNING: Unmatched cancel notification for request id 67
 2024.07.02 10:30:51 INFO  BSP server: 	at java.base@17.0.6/java.util.concurrent.FutureTask.run(FutureTask.java:264)
 2024.07.02 10:30:51 INFO  BSP server: 	at java.base@17.0.6/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
 2024.07.02 10:30:51 INFO  Exiting server
+2024.07.08 20:32:21 INFO  Started: Metals version 1.3.2 in folders 'C:\Users\tharu\Desktop\scala\scala' for client Visual Studio Code 1.90.2.
+SLF4J(W): Class path contains multiple SLF4J providers.
+SLF4J(W): Found provider [scribe.slf4j.ScribeServiceProvider@4eaaa819]
+SLF4J(W): Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@30286fb2]
+SLF4J(W): See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J(I): Actual provider is of type [scribe.slf4j.ScribeServiceProvider@4eaaa819]
+2024.07.08 20:32:22 WARN  Flyway upgrade recommended: H2 2.2.224 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.
+2024.07.08 20:32:24 INFO  no build target found for C:\Users\tharu\Desktop\scala\scala\labsheet03\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.08 20:32:24 INFO  no build target found for C:\Users\tharu\Desktop\scala\scala\labsheet03\Q4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.08 20:32:25 INFO  Attempting to connect to the build server...
+2024.07.08 20:32:25 INFO  Running BSP server List(C:\Users\tharu\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\tharu\Desktop\scala\scala\.scala-build\ide-options-v2.json, --json-launcher-options, C:\Users\tharu\Desktop\scala\scala\.scala-build\ide-launcher-options.json, --envs-file, C:\Users\tharu\Desktop\scala\scala\.scala-build\ide-envs.json, C:\Users\tharu\Desktop\scala\scala)
+2024.07.08 20:32:26 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\tharu\Desktop\scala\scala\.metals\bsp.trace.json or C:\Users\tharu\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2024.07.08 20:32:30 INFO  BSP server: Starting compilation server
+2024.07.08 20:32:42 INFO  no build target found for C:\Users\tharu\Desktop\scala\scala\labsheet03\Q4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+Jul 08, 2024 8:32:42 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8
+2024.07.08 20:32:42 INFO  no build target found for C:\Users\tharu\Desktop\scala\scala\labsheet03\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+Jul 08, 2024 8:32:42 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 12
+Jul 08, 2024 8:32:42 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 15
+2024.07.08 20:32:42 INFO  no build target found for C:\Users\tharu\Desktop\scala\scala\labsheet03\Q4.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.08 20:32:43 INFO  time: Connected to build server in 17s
+2024.07.08 20:32:43 INFO  Connected to Build server: scala-cli v1.3.2
+2024.07.08 20:32:43 INFO  time: Imported build in 0.29s
+2024.07.08 20:32:44 INFO  compiling scala_f4dd477a3a (5 scala sources)
+2024.07.08 20:32:50 INFO  time: compiled scala_f4dd477a3a in 5.71s
+2024.07.08 20:32:50 INFO  compiling scala_f4dd477a3a (5 scala sources)
+2024.07.08 20:32:51 INFO  time: compiled scala_f4dd477a3a in 0.87s
+2024.07.08 20:33:19 INFO  time: indexed workspace in 35s
+2024.07.08 20:33:20 INFO  compiling scala_f4dd477a3a (5 scala sources)
+2024.07.08 20:33:20 INFO  time: compiled scala_f4dd477a3a in 0.7s
+2024.07.08 20:34:14 INFO  no build target found for C:\Users\tharu\Desktop\scala\scala\labsheet\labsheet04\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.08 20:34:14 INFO  no build target found for C:\Users\tharu\Desktop\scala\scala\labsheet\labsheet04\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.08 20:34:15 WARN  Could not find semantic tokens for: file:///C:/Users/tharu/Desktop/scala/scala/labsheet/labsheet04/Q1.scala
+2024.07.08 20:34:15 INFO  compiling scala_f4dd477a3a (11 scala sources)
+2024.07.08 20:34:17 INFO  time: compiled scala_f4dd477a3a in 1.64s
+2024.07.08 20:34:17 INFO  compiling scala_f4dd477a3a (11 scala sources)
+2024.07.08 20:34:18 INFO  time: indexed workspace in 2.61s
+2024.07.08 20:34:18 INFO  Deduplicating compilation of scala_f4dd477a3a from bsp client 'scala-cli 1.3.2' (since 1m 36.046s)
+2024.07.08 20:34:18 INFO  time: compiled scala_f4dd477a3a in 1.1s
+2024.07.08 20:34:18 INFO  compiling scala_f4dd477a3a (11 scala sources)
+2024.07.08 20:34:18 INFO  time: compiled scala_f4dd477a3a in 26ms
+2024.07.08 20:34:19 WARN  Could not find semantic tokens for: file:///C:/Users/tharu/Desktop/scala/scala/labsheet/labsheet04/Q1.scala
+2024.07.08 20:34:26 INFO  no build target found for C:\Users\tharu\Desktop\scala\scala\labsheet\labsheet04\Q2.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.08 20:34:27 INFO  no build target found for C:\Users\tharu\Desktop\scala\scala\labsheet\labsheet04\Q2.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.08 20:34:27 WARN  Could not find semantic tokens for: file:///C:/Users/tharu/Desktop/scala/scala/labsheet/labsheet04/Q2.scala
+2024.07.08 20:34:27 INFO  compiling scala_f4dd477a3a (12 scala sources)
+2024.07.08 20:34:27 INFO  time: compiled scala_f4dd477a3a in 0.88s
+2024.07.08 20:34:28 INFO  compiling scala_f4dd477a3a (12 scala sources)
+2024.07.08 20:34:28 INFO  time: compiled scala_f4dd477a3a in 0.65s
+2024.07.08 20:34:29 INFO  time: indexed workspace in 2.4s
+2024.07.08 20:34:30 INFO  compiling scala_f4dd477a3a (12 scala sources)
+2024.07.08 20:34:30 INFO  time: compiled scala_f4dd477a3a in 0.57s
+2024.07.08 20:34:30 WARN  Could not find semantic tokens for: file:///C:/Users/tharu/Desktop/scala/scala/labsheet/labsheet04/Q2.scala
+2024.07.08 20:34:34 INFO  no build target found for C:\Users\tharu\Desktop\scala\scala\labsheet\labsheet04\Q3.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.08 20:34:34 INFO  no build target found for C:\Users\tharu\Desktop\scala\scala\labsheet\labsheet04\Q3.scala. Using presentation compiler with project's scala-library version: 3.3.3
+2024.07.08 20:34:34 WARN  Could not find semantic tokens for: file:///C:/Users/tharu/Desktop/scala/scala/labsheet/labsheet04/Q3.scala
+2024.07.08 20:34:34 INFO  compiling scala_f4dd477a3a (13 scala sources)
+2024.07.08 20:34:34 INFO  time: compiled scala_f4dd477a3a in 0.58s
+2024.07.08 20:34:34 INFO  compiling scala_f4dd477a3a (13 scala sources)
+2024.07.08 20:34:36 INFO  time: compiled scala_f4dd477a3a in 0.51s
+2024.07.08 20:34:36 INFO  time: indexed workspace in 2.17s
+2024.07.08 20:34:37 INFO  compiling scala_f4dd477a3a (13 scala sources)
+2024.07.08 20:34:37 INFO  time: compiled scala_f4dd477a3a in 0.46s
+2024.07.08 20:34:37 WARN  Could not find semantic tokens for: file:///C:/Users/tharu/Desktop/scala/scala/labsheet/labsheet04/Q3.scala
+2024.07.08 20:34:44 WARN  Could not find semantic tokens for: file:///C:/Users/tharu/Desktop/scala/scala/labsheet/labsheet04/Q2.scala
+Jul 08, 2024 8:35:03 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2024.07.08 21:41:14 WARN  Could not find semantic tokens for: file:///C:/Users/tharu/Desktop/scala/scala/labsheet/labsheet04/Q1.scala
+2024.07.08 21:41:17 INFO  compiling scala_f4dd477a3a (13 scala sources)
+2024.07.08 21:41:18 INFO  time: compiled scala_f4dd477a3a in 1.19s
+2024.07.08 21:41:43 WARN  Could not find semantic tokens for: file:///C:/Users/tharu/Desktop/scala/scala/labsheet/labsheet04/Q2.scala
+2024.07.08 21:41:49 WARN  Could not find semantic tokens for: file:///C:/Users/tharu/Desktop/scala/scala/labsheet/labsheet04/Q3.scala
+2024.07.08 21:41:59 INFO  compiling scala_f4dd477a3a (13 scala sources)
+2024.07.08 21:41:59 INFO  time: compiled scala_f4dd477a3a in 0.83s
+2024.07.08 21:42:00 WARN  Could not find semantic tokens for: file:///C:/Users/tharu/Desktop/scala/scala/labsheet/labsheet04/Q3.scala
+2024.07.08 21:42:03 INFO  compiling scala_f4dd477a3a (13 scala sources)
+2024.07.08 21:42:03 INFO  time: compiled scala_f4dd477a3a in 0.62s
+2024.07.08 22:45:24 INFO  Shutting down server
+2024.07.08 22:45:24 INFO  shutting down Metals
+2024.07.08 22:45:24 INFO  Shut down connection with build server.
+2024.07.08 22:45:24 INFO  BSP server: Jul 08, 2024 10:45:24 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+2024.07.08 22:45:24 INFO  BSP server: WARNING: Notification threw an exception: {
+2024.07.08 22:45:24 INFO  BSP server:   "jsonrpc": "2.0",
+2024.07.08 22:45:24 INFO  BSP server:   "method": "build/exit",
+2024.07.08 22:45:24 INFO  Exiting server
