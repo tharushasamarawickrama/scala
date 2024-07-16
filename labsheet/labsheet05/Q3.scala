@@ -1,16 +1,28 @@
-object fibonacci{
+import scala.io.StdIn.readLine
 
-    def fib(num:Int):Int=num match{
-        case 0 => 0
-        case 1 =>  1
-        case _ => fib(num-1) + fib(num-2)
-    
+object Question3 {
 
+  
+  def fibonacci(n: Int): Int = {
+    if (n <= 1) n
+    else fibonacci(n - 1) + fibonacci(n - 2)
+  }
+
+  
+  def printFibonacciSequence(n: Int): Unit = {
+    for (i <- 0 until n) {
+      println(fibonacci(i))
     }
+  }
 
-    def main(args:Array[String]):Unit={
-
-
-  println(fib(10));
- }
+  def main(args: Array[String]): Unit = {
+    println("Enter the number of terms: ")
+    val num = readLine().toInt
+    if (num > 0) {
+      println(s"First $num Fibonacci numbers are:")
+      printFibonacciSequence(num)
+    } else {
+      println("The number must be greater than 0.")
+    }
+  }
 }
