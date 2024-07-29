@@ -11,9 +11,7 @@ object Q2{
              }
         }
 
-
-
-     def main(args: Array[String]): Unit = {
-        identifynum();
-     }
+         def main(args: Array[String]): Unit = {
+            identifynum();
+         }
 }
