@@ -3164,3 +3164,213 @@ WARNING: Unmatched cancel notification for request id 371
 2024.07.23 10:54:54 INFO  Shut down connection with build server.
 2024.07.23 10:54:54 INFO  BSP server: Jul 23, 2024 10:54:54 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
 2024.07.23 10:54:53 INFO  Exiting server
+2024.07.29 20:53:58 INFO  Started: Metals version 1.3.4 in folders 'C:\Users\tharu\Desktop\scala\scala' for client Visual Studio Code 1.91.1.[0m
+SLF4J(W): Class path contains multiple SLF4J providers.
+SLF4J(W): Found provider [scribe.slf4j.ScribeServiceProvider@dd19750]
+SLF4J(W): Found provider [ch.qos.logback.classic.spi.LogbackServiceProvider@504eeb13]
+SLF4J(W): See https://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J(I): Actual provider is of type [scribe.slf4j.ScribeServiceProvider@dd19750]
+2024.07.29 20:54:01 WARN  Flyway upgrade recommended: H2 2.3.230 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.[0m
+2024.07.29 20:54:03 INFO  Attempting to connect to the build server...[0m
+2024.07.29 20:54:03 INFO  Running BSP server List(C:\Users\tharu\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\tharu\Desktop\scala\scala\.scala-build\ide-options-v2.json, --json-launcher-options, C:\Users\tharu\Desktop\scala\scala\.scala-build\ide-launcher-options.json, --envs-file, C:\Users\tharu\Desktop\scala\scala\.scala-build\ide-envs.json, C:\Users\tharu\Desktop\scala\scala)[0m
+2024.07.29 20:54:03 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\tharu\Desktop\scala\scala\.metals\bsp.trace.json or C:\Users\tharu\AppData\Local\scalameta\metals\cache\bsp.trace.json[0m
+2024.07.29 20:54:07 INFO  BSP server: Starting compilation server[0m
+2024.07.29 20:54:20 INFO  time: Connected to build server in 17s[0m
+2024.07.29 20:54:20 INFO  Connected to Build server: scala-cli v1.3.2[0m
+2024.07.29 20:54:20 INFO  time: Imported build in 0.23s[0m
+2024.07.29 20:54:20 INFO  running doctor check[0m
+2024.07.29 20:54:20 INFO  java targets: scala_f4dd477a3a, scala_f4dd477a3a-test[0m
+2024.07.29 20:54:21 INFO  compiling scala_f4dd477a3a (16 scala sources)[0m
+2024.07.29 20:54:28 INFO  time: compiled scala_f4dd477a3a in 7.21s[0m
+2024.07.29 20:54:28 INFO  compiling scala_f4dd477a3a (16 scala sources)[0m
+2024.07.29 20:54:30 INFO  time: compiled scala_f4dd477a3a in 1.8s[0m
+2024.07.29 20:54:31 WARN  Flyway upgrade recommended: H2 2.3.230 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.2.220.[0m
+2024.07.29 20:54:32 INFO  time: indexed workspace in 12s[0m
+2024.07.29 20:59:24 INFO  no build target found for C:\Users\tharu\Desktop\scala\scala\labsheet\labsheet06\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.07.29 20:59:24 INFO  no build target found for C:\Users\tharu\Desktop\scala\scala\labsheet\labsheet06\Q1.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.07.29 20:59:25 INFO  compiling scala_f4dd477a3a (17 scala sources)[0m
+2024.07.29 20:59:34 INFO  no build target found for C:\Users\tharu\Desktop\scala\scala\labsheet\labsheet06\Q2.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.07.29 20:59:46 INFO  time: compiled scala_f4dd477a3a in 21s[0m
+2024.07.29 20:59:46 INFO  compiling scala_f4dd477a3a (17 scala sources)[0m
+2024.07.29 20:59:46 INFO  time: compiled scala_f4dd477a3a in 37ms[0m
+2024.07.29 20:59:46 INFO  no build target found for C:\Users\tharu\Desktop\scala\scala\labsheet\labsheet06\Q2.scala. Using presentation compiler with project's scala-library version: 3.3.3[0m
+2024.07.29 20:59:46 INFO  running doctor check[0m
+2024.07.29 20:59:46 INFO  java targets: scala_f4dd477a3a, scala_f4dd477a3a-test[0m
+2024.07.29 20:59:46 INFO  compiling scala_f4dd477a3a (18 scala sources)[0m
+2024.07.29 20:59:49 INFO  time: compiled scala_f4dd477a3a in 1.47s[0m
+2024.07.29 20:59:49 INFO  compiling scala_f4dd477a3a (18 scala sources)[0m
+2024.07.29 20:59:49 INFO  time: code lens generation in 15s[0m
+2024.07.29 20:59:50 INFO  time: compiled scala_f4dd477a3a in 0.89s[0m
+2024.07.29 20:59:50 INFO  time: indexed workspace in 3.96s[0m
+2024.07.29 20:59:50 WARN  no build target for: C:\Users\tharu\Desktop\scala\scala\labsheet\labsheet06\Q2.scala[0m
+2024.07.29 20:59:52 INFO  time: code lens generation in 26s[0m
+2024.07.29 20:59:52 INFO  running doctor check[0m
+2024.07.29 20:59:52 INFO  java targets: scala_f4dd477a3a, scala_f4dd477a3a-test[0m
+2024.07.29 20:59:52 WARN  Could not find semantic tokens for: file:///C:/Users/tharu/Desktop/scala/scala/labsheet/labsheet06/Q2.scala[0m
+2024.07.29 20:59:54 INFO  time: indexed workspace in 7.29s[0m
+2024.07.29 20:59:55 INFO  compiling scala_f4dd477a3a (18 scala sources)[0m
+2024.07.29 20:59:55 INFO  time: compiled scala_f4dd477a3a in 0.71s[0m
+2024.07.29 20:59:56 WARN  Could not find semantic tokens for: file:///C:/Users/tharu/Desktop/scala/scala/labsheet/labsheet06/Q2.scala[0m
+2024.07.29 21:32:10 WARN  Could not find semantic tokens for: file:///C:/Users/tharu/Desktop/scala/scala/labsheet/labsheet06/Q2.scala[0m
+2024.07.29 21:32:13 WARN  Could not find semantic tokens for: file:///C:/Users/tharu/Desktop/scala/scala/labsheet/labsheet06/Q1.scala[0m
+2024.07.29 21:32:24 INFO  compiling scala_f4dd477a3a (18 scala sources)[0m
+2024.07.29 21:32:26 INFO  time: compiled scala_f4dd477a3a in 1.48s[0m
+Jul 29, 2024 9:47:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 174
+2024.07.29 21:47:38 WARN  Could not find semantic tokens for: file:///C:/Users/tharu/Desktop/scala/scala/labsheet/labsheet06/Q1.scala[0m
+2024.07.29 21:47:39 INFO  compiling scala_f4dd477a3a (18 scala sources)[0m
+2024.07.29 21:47:40 WARN  Could not find semantic tokens for: file:///C:/Users/tharu/Desktop/scala/scala/labsheet/labsheet06/Q1.scala[0m
+2024.07.29 21:47:39 INFO  time: compiled scala_f4dd477a3a in 0.95s[0m
+2024.07.29 21:47:40 WARN  Could not find semantic tokens for: file:///C:/Users/tharu/Desktop/scala/scala/labsheet/labsheet06/Q1.scala[0m
+2024.07.29 21:47:41 INFO  compiling scala_f4dd477a3a (18 scala sources)[0m
+2024.07.29 21:47:41 WARN  Could not find semantic tokens for: file:///C:/Users/tharu/Desktop/scala/scala/labsheet/labsheet06/Q1.scala[0m
+2024.07.29 21:47:41 INFO  time: compiled scala_f4dd477a3a in 0.59s[0m
+2024.07.29 21:47:42 WARN  Could not find semantic tokens for: file:///C:/Users/tharu/Desktop/scala/scala/labsheet/labsheet06/Q1.scala[0m
+2024.07.29 21:47:42 INFO  compiling scala_f4dd477a3a (18 scala sources)[0m
+2024.07.29 21:47:42 INFO  time: compiled scala_f4dd477a3a in 0.75s[0m
+2024.07.29 21:47:44 INFO  compiling scala_f4dd477a3a (18 scala sources)[0m
+2024.07.29 21:47:44 INFO  time: compiled scala_f4dd477a3a in 0.78s[0m
+2024.07.29 21:47:47 INFO  compiling scala_f4dd477a3a (18 scala sources)[0m
+2024.07.29 21:47:47 INFO  time: compiled scala_f4dd477a3a in 0.6s[0m
+2024.07.29 21:47:51 INFO  compiling scala_f4dd477a3a (18 scala sources)[0m
+2024.07.29 21:47:51 INFO  time: compiled scala_f4dd477a3a in 0.57s[0m
+2024.07.29 21:47:53 INFO  compiling scala_f4dd477a3a (18 scala sources)[0m
+2024.07.29 21:47:53 INFO  time: compiled scala_f4dd477a3a in 0.45s[0m
+2024.07.29 21:47:55 INFO  compiling scala_f4dd477a3a (18 scala sources)[0m
+2024.07.29 21:47:55 INFO  time: compiled scala_f4dd477a3a in 0.75s[0m
+2024.07.29 21:47:56 INFO  compiling scala_f4dd477a3a (18 scala sources)[0m
+2024.07.29 21:47:56 INFO  time: compiled scala_f4dd477a3a in 0.62s[0m
+2024.07.29 21:48:28 INFO  compiling scala_f4dd477a3a (18 scala sources)[0m
+2024.07.29 21:48:28 INFO  time: compiled scala_f4dd477a3a in 0.48s[0m
+2024.07.29 21:48:30 INFO  compiling scala_f4dd477a3a (18 scala sources)[0m
+2024.07.29 21:48:30 INFO  time: compiled scala_f4dd477a3a in 0.61s[0m
+2024.07.29 21:48:43 INFO  compiling scala_f4dd477a3a (18 scala sources)[0m
+2024.07.29 21:48:43 INFO  time: compiled scala_f4dd477a3a in 0.58s[0m
+2024.07.29 21:48:44 INFO  compiling scala_f4dd477a3a (18 scala sources)[0m
+2024.07.29 21:48:44 INFO  time: compiled scala_f4dd477a3a in 0.54s[0m
+2024.07.29 21:48:46 INFO  compiling scala_f4dd477a3a (18 scala sources)[0m
+2024.07.29 21:48:46 INFO  time: compiled scala_f4dd477a3a in 0.54s[0m
+Jul 29, 2024 9:54:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 486
+2024.07.29 23:55:09 INFO  compiling scala_f4dd477a3a (18 scala sources)[0m
+2024.07.29 23:55:09 INFO  time: compiled scala_f4dd477a3a in 0.67s[0m
+2024.07.29 23:55:11 INFO  compiling scala_f4dd477a3a (18 scala sources)[0m
+2024.07.29 23:55:11 INFO  time: compiled scala_f4dd477a3a in 0.53s[0m
+2024.07.29 23:55:14 INFO  compiling scala_f4dd477a3a (18 scala sources)[0m
+2024.07.29 23:55:14 INFO  time: compiled scala_f4dd477a3a in 0.71s[0m
+Jul 30, 2024 12:01:45 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 761
+Jul 30, 2024 12:02:27 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 781
+Jul 30, 2024 12:03:33 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 818
+Jul 30, 2024 12:03:56 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 892
+Jul 30, 2024 12:03:57 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 893
+Jul 30, 2024 12:04:41 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 926
+Jul 30, 2024 12:09:07 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1190
+2024.07.30 00:09:36 INFO  compiling scala_f4dd477a3a (18 scala sources)[0m
+2024.07.30 00:09:36 INFO  time: compiled scala_f4dd477a3a in 0.51s[0m
+2024.07.30 00:09:38 INFO  compiling scala_f4dd477a3a (18 scala sources)[0m
+2024.07.30 00:09:38 INFO  time: compiled scala_f4dd477a3a in 0.46s[0m
+2024.07.30 00:09:41 INFO  compiling scala_f4dd477a3a (18 scala sources)[0m
+2024.07.30 00:09:41 INFO  time: compiled scala_f4dd477a3a in 0.44s[0m
+2024.07.30 00:09:43 INFO  compiling scala_f4dd477a3a (18 scala sources)[0m
+2024.07.30 00:09:43 INFO  time: compiled scala_f4dd477a3a in 0.48s[0m
+2024.07.30 00:09:46 INFO  compiling scala_f4dd477a3a (18 scala sources)[0m
+2024.07.30 00:09:46 INFO  time: compiled scala_f4dd477a3a in 0.43s[0m
+2024.07.30 00:09:50 INFO  compiling scala_f4dd477a3a (18 scala sources)[0m
+2024.07.30 00:09:50 INFO  time: compiled scala_f4dd477a3a in 0.45s[0m
+2024.07.30 00:09:53 INFO  compiling scala_f4dd477a3a (18 scala sources)[0m
+2024.07.30 00:09:53 INFO  time: compiled scala_f4dd477a3a in 0.42s[0m
+2024.07.30 00:09:59 INFO  compiling scala_f4dd477a3a (18 scala sources)[0m
+2024.07.30 00:09:59 INFO  time: compiled scala_f4dd477a3a in 0.57s[0m
+2024.07.30 00:12:01 INFO  compiling scala_f4dd477a3a (18 scala sources)[0m
+2024.07.30 00:12:01 INFO  time: compiled scala_f4dd477a3a in 0.52s[0m
+2024.07.30 00:12:05 INFO  compiling scala_f4dd477a3a (18 scala sources)[0m
+2024.07.30 00:12:05 INFO  time: compiled scala_f4dd477a3a in 0.43s[0m
+2024.07.30 00:12:13 INFO  compiling scala_f4dd477a3a (18 scala sources)[0m
+2024.07.30 00:12:13 INFO  time: compiled scala_f4dd477a3a in 0.47s[0m
+2024.07.30 00:12:15 INFO  compiling scala_f4dd477a3a (18 scala sources)[0m
+2024.07.30 00:12:15 INFO  time: compiled scala_f4dd477a3a in 0.61s[0m
+2024.07.30 00:12:16 INFO  compiling scala_f4dd477a3a (18 scala sources)[0m
+2024.07.30 00:12:16 INFO  time: compiled scala_f4dd477a3a in 0.4s[0m
+2024.07.30 00:12:18 INFO  compiling scala_f4dd477a3a (18 scala sources)[0m
+2024.07.30 00:12:18 INFO  time: compiled scala_f4dd477a3a in 0.4s[0m
+2024.07.30 00:18:10 INFO  compiling scala_f4dd477a3a (18 scala sources)[0m
+2024.07.30 00:18:10 INFO  time: compiled scala_f4dd477a3a in 0.55s[0m
+2024.07.30 00:18:15 INFO  compiling scala_f4dd477a3a (18 scala sources)[0m
+2024.07.30 00:18:15 INFO  time: compiled scala_f4dd477a3a in 0.48s[0m
+2024.07.30 00:21:29 INFO  compiling scala_f4dd477a3a (18 scala sources)[0m
+2024.07.30 00:21:29 INFO  time: compiled scala_f4dd477a3a in 0.51s[0m
+2024.07.30 00:21:30 INFO  compiling scala_f4dd477a3a (18 scala sources)[0m
+2024.07.30 00:21:30 INFO  time: compiled scala_f4dd477a3a in 0.58s[0m
+2024.07.30 00:21:35 INFO  compiling scala_f4dd477a3a (18 scala sources)[0m
+2024.07.30 00:21:35 INFO  time: compiled scala_f4dd477a3a in 0.45s[0m
+2024.07.30 00:21:37 INFO  compiling scala_f4dd477a3a (18 scala sources)[0m
+2024.07.30 00:21:37 INFO  time: compiled scala_f4dd477a3a in 0.39s[0m
+2024.07.30 00:21:41 INFO  compiling scala_f4dd477a3a (18 scala sources)[0m
+2024.07.30 00:21:41 INFO  time: compiled scala_f4dd477a3a in 0.38s[0m
+2024.07.30 00:21:43 INFO  compiling scala_f4dd477a3a (18 scala sources)[0m
+2024.07.30 00:21:43 INFO  time: compiled scala_f4dd477a3a in 0.42s[0m
+2024.07.30 00:21:48 INFO  compiling scala_f4dd477a3a (18 scala sources)[0m
+2024.07.30 00:21:48 INFO  time: compiled scala_f4dd477a3a in 0.46s[0m
+2024.07.30 00:21:49 INFO  compiling scala_f4dd477a3a (18 scala sources)[0m
+2024.07.30 00:21:49 INFO  time: compiled scala_f4dd477a3a in 0.42s[0m
+2024.07.30 00:21:52 INFO  compiling scala_f4dd477a3a (18 scala sources)[0m
+2024.07.30 00:21:52 INFO  time: compiled scala_f4dd477a3a in 0.43s[0m
+2024.07.30 00:24:02 INFO  compiling scala_f4dd477a3a (18 scala sources)[0m
+2024.07.30 00:24:02 INFO  time: compiled scala_f4dd477a3a in 0.47s[0m
+2024.07.30 00:24:10 INFO  compiling scala_f4dd477a3a (18 scala sources)[0m
+2024.07.30 00:24:10 INFO  time: compiled scala_f4dd477a3a in 0.4s[0m
+Jul 30, 2024 12:24:48 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2024.07.30 00:25:19 WARN  Could not find semantic tokens for: file:///C:/Users/tharu/Desktop/scala/scala/labsheet/labsheet06/Q2.scala[0m
+2024.07.30 00:26:04 WARN  Could not find semantic tokens for: file:///C:/Users/tharu/Desktop/scala/scala/labsheet/labsheet06/Q2.scala[0m
+2024.07.30 00:26:07 INFO  compiling scala_f4dd477a3a (18 scala sources)[0m
+2024.07.30 00:26:07 INFO  time: compiled scala_f4dd477a3a in 0.61s[0m
+2024.07.30 00:27:22 INFO  compiling scala_f4dd477a3a (18 scala sources)[0m
+2024.07.30 00:27:22 INFO  time: compiled scala_f4dd477a3a in 0.67s[0m
+2024.07.30 00:27:26 INFO  compiling scala_f4dd477a3a (18 scala sources)[0m
+2024.07.30 00:27:26 INFO  time: compiled scala_f4dd477a3a in 0.55s[0m
+Jul 30, 2024 12:27:32 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2403
+2024.07.30 00:27:49 INFO  compiling scala_f4dd477a3a (18 scala sources)[0m
+2024.07.30 00:27:49 INFO  time: compiled scala_f4dd477a3a in 0.46s[0m
+2024.07.30 00:27:52 INFO  compiling scala_f4dd477a3a (18 scala sources)[0m
+2024.07.30 00:27:52 INFO  time: compiled scala_f4dd477a3a in 0.48s[0m
+2024.07.30 00:27:53 INFO  compiling scala_f4dd477a3a (18 scala sources)[0m
+2024.07.30 00:27:53 INFO  time: compiled scala_f4dd477a3a in 0.43s[0m
+2024.07.30 00:27:57 INFO  compiling scala_f4dd477a3a (18 scala sources)[0m
+2024.07.30 00:27:57 INFO  time: compiled scala_f4dd477a3a in 0.44s[0m
+2024.07.30 00:27:59 INFO  compiling scala_f4dd477a3a (18 scala sources)[0m
+2024.07.30 00:27:59 INFO  time: compiled scala_f4dd477a3a in 0.44s[0m
+2024.07.30 00:28:01 INFO  compiling scala_f4dd477a3a (18 scala sources)[0m
+2024.07.30 00:28:01 INFO  time: compiled scala_f4dd477a3a in 0.49s[0m
+2024.07.30 00:29:07 INFO  compiling scala_f4dd477a3a (18 scala sources)[0m
+2024.07.30 00:29:07 INFO  time: compiled scala_f4dd477a3a in 0.49s[0m
+2024.07.30 00:49:20 INFO  Shutting down server[0m
+2024.07.30 00:49:20 INFO  shutting down Metals[0m
+2024.07.30 00:49:20 INFO  BSP server: Jul 30, 2024 12:49:20 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification[0m
+2024.07.30 00:49:20 INFO  BSP server: WARNING: Notification threw an exception: {[0m
+2024.07.30 00:49:20 INFO  BSP server:   "jsonrpc": "2.0",[0m
+2024.07.30 00:49:20 INFO  BSP server:   "method": "build/exit",[0m
+2024.07.30 00:49:20 INFO  BSP server:   "params": null[0m
+2024.07.30 00:49:20 INFO  BSP server: }[0m
+2024.07.30 00:49:20 INFO  BSP server: java.lang.RuntimeException: java.lang.reflect.InvocationTargetException[0m
+2024.07.30 00:49:20 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)[0m
+2024.07.30 00:49:20 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)[0m
+2024.07.30 00:49:20 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)[0m
+2024.07.30 00:49:20 INFO  Shut down connection with build server.[0m
+2024.07.30 00:49:20 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)[0m
+2024.07.30 00:49:20 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)[0m
+2024.07.30 00:49:20 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)[0m
+2024.07.30 00:49:20 INFO  BSP server: 	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)[0m
+2024.07.30 00:49:20 INFO  BSP server: 	at java.base@17.0.6/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)[0m
+2024.07.30 00:49:20 INFO  BSP server: 	at java.base@17.0.6/java.util.concurrent.FutureTask.run(FutureTask.java:264)[0m
+2024.07.30 00:49:20 INFO  BSP server: 	at java.base@17.0.6/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)[0m
+2024.07.30 00:49:20 INFO  BSP server: 	at java.base@17.0.6/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)[0m
+2024.07.30 00:49:20 INFO  Exiting server[0m
