@@ -1,0 +1,40 @@
+error id: VtpJkJgUmuvGSPNmOZVgWw==
+### Bloop error:
+
+Unexpected error when compiling scala_f4dd477a3a: java.nio.file.FileSystemException: <WORKSPACE>\.scala-build\.bloop\scala_f4dd477a3a\bloop-internal-classes\main-25PsWwb5QxSlH2pRNvGdNA==\XYZCo$.class -> <HOME>\AppData\Local\Temp\bloop12961118749139944982\bloop11182511940369227733.class: The process cannot access the file because it is being used by another process
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:92)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsFileCopy.move(WindowsFileCopy.java:403)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.move(WindowsFileSystemProvider.java:293)
+	at java.base/java.nio.file.Files.move(Files.java:1432)
+	at bloop.BloopClassFileManager.move(BloopClassFileManager.scala:296)
+	at bloop.BloopClassFileManager.$anonfun$delete$6(BloopClassFileManager.scala:159)
+	at bloop.BloopClassFileManager.$anonfun$delete$6$adapted(BloopClassFileManager.scala:157)
+	at scala.collection.TraversableLike$WithFilter.$anonfun$foreach$1(TraversableLike.scala:985)
+	at scala.collection.IndexedSeqOptimized.foreach(IndexedSeqOptimized.scala:36)
+	at scala.collection.IndexedSeqOptimized.foreach$(IndexedSeqOptimized.scala:33)
+	at scala.collection.mutable.ArrayOps$ofRef.foreach(ArrayOps.scala:198)
+	at scala.collection.TraversableLike$WithFilter.foreach(TraversableLike.scala:984)
+	at bloop.BloopClassFileManager.delete(BloopClassFileManager.scala:157)
+	at xsbti.compile.ClassFileManager.delete(ClassFileManager.java:36)
+	at bloop.BloopClassFileManager.delete(BloopClassFileManager.scala:24)
+	at sbt.internal.inc.IncrementalCommon$.pruneClassFilesOfInvalidations(IncrementalCommon.scala:892)
+	at sbt.internal.inc.bloop.internal.BloopNameHashing.recompileClasses(BloopNameHashing.scala:245)
+	at sbt.internal.inc.bloop.internal.BloopNameHashing.entrypoint(BloopNameHashing.scala:93)
+	at sbt.internal.inc.bloop.internal.BloopIncremental$.compileIncremental(BloopIncremental.scala:130)
+	at sbt.internal.inc.bloop.internal.BloopIncremental$.compile(BloopIncremental.scala:63)
+	at sbt.internal.inc.bloop.BloopZincCompiler$.$anonfun$compileIncrementally$1(BloopZincCompiler.scala:153)
+	at bloop.task.Task.$anonfun$runAsync$8(Task.scala:268)
+	at monix.eval.internal.TaskRunLoop$.startFull(TaskRunLoop.scala:170)
+	at monix.eval.internal.TaskRestartCallback.syncOnSuccess(TaskRestartCallback.scala:101)
+	at monix.eval.internal.TaskRestartCallback.onSuccess(TaskRestartCallback.scala:74)
+	at monix.eval.internal.TaskExecuteOn$AsyncRegister$$anon$1.run(TaskExecuteOn.scala:71)
+	at java.base/java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1395)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+#### Short summary: 
+
+Unexpected error when compiling scala_f4dd477a3a: java.nio.file.FileSystemException: <WORKSPACE>\.sc...
