@@ -1,26 +1,23 @@
 class Rational(n: Int, d: Int) {
   require(d != 0, "Denominator cannot be zero")
 
-  // GCD to simplify the rational number
-  private val gcd = gcdFunc(n.abs, d.abs)
-  val numerator: Int = n / gcd
-  val denominator: Int = d / gcd
+  // Greatest Common Divisor
+  private def gcd(a: Int, b: Int): Int = if (b == 0) a else gcd(b, a % b)
 
-  // Method to calculate GCD
-  private def gcdFunc(a: Int, b: Int): Int = {
-    if (b == 0) a else gcdFunc(b, a % b)
-  }
+  // Simplified numerator and denominator
+  private val g = gcd(n.abs, d.abs)
+  val numerator: Int = n / g
+  val denominator: Int = d / g
 
-  // Method to negate the rational number
-  def neg: Rational = new Rational(-this.numerator, this.denominator)
+  // Negate method
+  def neg: Rational = new Rational(-numerator, denominator)
 
-  // Override toString to print rational number nicely
+  // Overriding toString for better display
   override def toString: String = s"$numerator/$denominator"
 }
 
-// Usage example
 object RationalTest extends App {
   val x = new Rational(3, 4)
-  println(s"Original: $x")   // Output: 3/4
-  println(s"Negated: ${x.neg}") // Output: -3/4
+  println(s"Original: $x") // 3/4
+  println(s"Negated: ${x.neg}") // -3/4
 }

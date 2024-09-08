@@ -1,40 +1,38 @@
-// Rational class to represent rational numbers
-class Rational(n: Int, d: Int) {
-  require(d != 0, "Denominator cannot be zero")
+object RationalNumbers {
 
-  // GCD to simplify the rational number
-  private val gcd = gcdFunc(n.abs, d.abs)
-  val numerator: Int = n / gcd
-  val denominator: Int = d / gcd
+  case class Rational(numerator: Int, denominator: Int) {
+    require(denominator != 0, "Denominator cannot be zero")
 
-  // Method to calculate GCD
-  private def gcdFunc(a: Int, b: Int): Int = {
-    if (b == 0) a else gcdFunc(b, a % b)
+    // Reduce the fraction to its simplest form
+    private def gcd(a: Int, b: Int): Int = {
+      if (b == 0) a else gcd(b, a % b)
+    }
+
+    private val divisor = gcd(numerator, denominator)
+    val reducedNumerator = numerator / divisor
+    val reducedDenominator = denominator / divisor
+
+    // Method to subtract two Rational numbers
+    def subtract(other: Rational): Rational = {
+      val newNumerator = (this.reducedNumerator * other.reducedDenominator) - (other.reducedNumerator * this.reducedDenominator)
+      val newDenominator = this.reducedDenominator * other.reducedDenominator
+      Rational(newNumerator, newDenominator)
+    }
+
+    override def toString: String = s"$reducedNumerator/$reducedDenominator"
   }
 
-  // Method to subtract two rational numbers
-  def sub(that: Rational): Rational = {
-    val newNumerator = this.numerator * that.denominator - that.numerator * this.denominator
-    val newDenominator = this.denominator * that.denominator
-    new Rational(newNumerator, newDenominator)
-  }
-
-  // Override toString to print rational number nicely
-  override def toString: String = s"$numerator/$denominator"
-}
-
-// RationalTest object to run the tests
-object RationalTest {
   def main(args: Array[String]): Unit = {
-    val x = new Rational(3, 4)
-    val y = new Rational(5, 8)
-    val z = new Rational(2, 7)
+    val x = Rational(3, 4)
+    val y = Rational(5, 8)
+    val z = Rational(2, 7)
 
-    // Subtract y - z
-    val result = y.sub(z)
+    val resultYMinusZ = y.subtract(z)
+    val result = x.subtract(resultYMinusZ)
 
-    // Print result of y - z and compare with x
-    println(s"y - z = $result")    // Output: 19/56
-    println(s"x = $x")             // Output: 3/4
+    println(s"x - (y - z) = $result")
   }
 }
+
+
+

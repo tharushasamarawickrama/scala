@@ -1,79 +1,59 @@
-class Account(val id: Int, var balance: Double) {
+object BankAccountManager {
 
-  // Deposit money into the account
-  def deposit(amount: Double): Unit = {
-    require(amount > 0, "Deposit amount must be positive")
-    balance += amount
-  }
+  case class Account(accountId: String, balance: Double)
 
-  // Withdraw money from the account
-  def withdraw(amount: Double): Unit = {
-    require(amount > 0, "Withdraw amount must be positive")
-    if (amount <= balance) {
-      balance -= amount
-    } else {
-      println("Insufficient balance")
+  object Bank {
+    // List of accounts
+    private var accounts: List[Account] = List()
+
+    // Function to add accounts to the bank
+    def addAccount(account: Account): Unit = {
+      accounts = account :: accounts
+    }
+
+    // 4.1 List of Accounts with negative balances
+    def listNegativeBalances: List[Account] = {
+      accounts.filter(_.balance < 0)
+    }
+
+    // 4.2 Calculate the sum of all account balances
+    def sumOfBalances: Double = {
+      accounts.map(_.balance).sum
+    }
+
+    // 4.3 Calculate final balances after applying interest
+    def applyInterest(): List[Account] = {
+      accounts.map { account =>
+        val updatedBalance = if (account.balance > 0) {
+          account.balance * 1.05  // Apply 5% deposit interest
+        } else {
+          account.balance * 0.90  // Apply 10% overdraft interest
+        }
+        account.copy(balance = updatedBalance)
+      }
     }
   }
 
-  // Apply interest: 5% for positive balances, 10% overdraft for negative balances
-  def applyInterest(): Unit = {
-    if (balance > 0) {
-      balance += balance * 0.05  // 5% interest
-    } else if (balance < 0) {
-      balance += balance * 0.10  // 10% overdraft interest
-    }
-  }
+  def main(args: Array[String]): Unit = {
+    // Adding sample accounts
+    Bank.addAccount(Account("A001", 500.0))
+    Bank.addAccount(Account("A002", -150.0))
+    Bank.addAccount(Account("A003", 200.0))
+    Bank.addAccount(Account("A004", -75.0))
 
-  override def toString: String = s"Account(id=$id, balance=$balance)"
-}
+    // List accounts with negative balances
+    println("Accounts with negative balances:")
+    Bank.listNegativeBalances.foreach(println)
 
-// Define the Bank as a list of Accounts
-class Bank(accounts: List[Account]) {
+    // Calculate the sum of all account balances
+    println(s"\nSum of all account balances: ${Bank.sumOfBalances}")
 
-  // 4.1 List of Accounts with negative balances
-  def accountsWithNegativeBalance(): List[Account] = {
-    accounts.filter(_.balance < 0)
-  }
-
-  // 4.2 Calculate the sum of all account balances
-  def totalBalance(): Double = {
-    accounts.map(_.balance).sum
-  }
-
-  // 4.3 Calculate final balances after applying interest to each account
-  def applyInterestToAll(): Unit = {
-    accounts.foreach(_.applyInterest())
-  }
-
-  // Print details of all accounts
-  def printAccounts(): Unit = {
-    accounts.foreach(println)
+    // Calculate final balances after applying interest
+    println("\nFinal balances after applying interest:")
+    Bank.applyInterest().foreach(println)
   }
 }
 
-// Usage example
-object BankApp extends App {
-  // Create some accounts
-  val acc1 = new Account(1, 1000.0)
-  val acc2 = new Account(2, -500.0)
-  val acc3 = new Account(3, 300.0)
-  val acc4 = new Account(4, -200.0)
 
-  // Create a bank with these accounts
-  val bank = new Bank(List(acc1, acc2, acc3, acc4))
 
-  // 4.1 List of accounts with negative balances
-  val negativeAccounts = bank.accountsWithNegativeBalance()
-  println("Accounts with negative balance:")
-  negativeAccounts.foreach(println)
 
-  // 4.2 Calculate the sum of all account balances
-  val total = bank.totalBalance()
-  println(s"Total balance of all accounts: $$total")
-
-  // 4.3 Apply interest to all accounts
-  bank.applyInterestToAll()
-  println("Balances after applying interest:")
-  bank.printAccounts()
-}
